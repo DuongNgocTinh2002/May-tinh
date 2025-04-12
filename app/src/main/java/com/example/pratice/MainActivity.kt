@@ -12,7 +12,6 @@ class MainActivity : AppCompatActivity() {
     private var currentInput = ""
     private var result = 0.0
     private var lastOperation = ""
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
